@@ -17,8 +17,8 @@ function updateClock(){
     s = s<10 ? "0" + s : s;
 
     hourE1.innerText = h;
-    minuteE1.innerText = m;
-    secondE1.innerText = s;
+    minutesE1.innerText = m;
+    secondsE1.innerText = s;
     ampmE1,(innerText = ampm);
     setTimeout(()=>{
      updateClock()
